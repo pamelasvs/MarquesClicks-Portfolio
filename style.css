@@ -1,4 +1,3 @@
-/* base*/
 :root {
   --paper: #ded3c4;
   --white: #eee5d9;
@@ -111,7 +110,6 @@ h2 em {
   display: none;
 }
 
-/*hero */
 .hero {
   min-height: 660px;
   display: grid;
@@ -213,7 +211,6 @@ h1 {
   color: var(--muted);
 }
 
-/*intro strip */
 .intro-strip {
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
@@ -237,7 +234,6 @@ h1 {
   color: var(--muted);
 }
 
-/*sections */
 .section {
   padding: 125px 10.5%;
 }
@@ -268,7 +264,6 @@ h2 {
   margin: 0 0 5px;
 }
 
-/*portfolio */
 .filter-bar {
   display: flex;
   gap: 27px;
@@ -375,7 +370,6 @@ h2 {
   margin: 18px 0 0;
 }
 
-/*about (sobre) */
 .about {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -428,7 +422,6 @@ h2 {
   margin-top: 16px;
 }
 
-/*quote parte */
 .quote-section {
   padding: 105px 15%;
   background: #c9b8a5;
@@ -456,7 +449,6 @@ blockquote {
   color: var(--muted);
 }
 
-/*contato */
 .contact {
   display: flex;
   justify-content: space-between;
@@ -502,7 +494,6 @@ blockquote {
   margin-top: 25px;
 }
 
-/*footer */
 .footer {
   border-top: 1px solid var(--line);
   margin: 0 7.2%;
@@ -533,7 +524,6 @@ blockquote {
   gap: 25px;
 }
 
-/*lightbox */
 .lightbox {
   position: fixed;
   inset: 0;
@@ -588,7 +578,6 @@ blockquote {
   letter-spacing: .2em;
 }
 
-/*responsivo */
 @media (max-width: 850px) {
   .site-header {
     height: 82px;

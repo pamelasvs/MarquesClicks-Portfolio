@@ -1,4 +1,3 @@
-// Menu mobile, filtros do portfólio e visualização ampliada das fotografias.
 const menuToggle = document.querySelector("#menuToggle");
 const mainNav = document.querySelector("#mainNav");
 
